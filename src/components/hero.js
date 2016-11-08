@@ -34,7 +34,7 @@ export default class Hero extends Component  {
         <div className="container">
           <Video service={service} video={video} width={500} height={270} />
           <p className="quote">"The Universe is the game of the self, which plays hide and seek forever and ever and ever."</p>
-          <h3 className="speaker">Alan Watts</h3>
+          <h2 className="speaker">Alan Watts</h2>
         </div>
       </section>
     );
