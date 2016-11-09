@@ -7,7 +7,7 @@ export default class About extends Component {
       <section id="about">
         <Grid>
           <h2 className="text-center">About Alan Watts</h2>
-          <Row>
+        <Row>
             <Col md={3}>
               <img
                 className="young-watts"
