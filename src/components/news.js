@@ -47,6 +47,47 @@ export default class News extends Component {
             </div>
           </div>
         </section>
+
+        <section id="film-features">
+          <div className="container">
+            <div className="content">
+              <h2>Alan Watts Re-Animated</h2>
+
+              <p>
+                Every order for Why Not Now? will now include an animated reel featuring vintage and contemporary animations of the spoken words of Alan Watts. This 23 minute DVD includes extracts from the groundbreaking 1972 series "The Fine Art of Goofing Off" as well as a couple of animations produced by the SouthPark creators and animators. The reel has been met with joyous laughter and standing ovations at recent film showings, and is not to be missed!
+              </p>
+
+              <h2>The documentary includes...</h2>
+              <ul>
+                <li>Classic interviews, vintage film, art, and photos</li>
+                <li>Contemporary footage of Japan and Big Sur</li>
+                <li>Music by Garth Brooks</li>
+                <li>Animation by Simpsons animator Eddie Rosas </li>
+                <li>Japanese-style woodcut prints by Tom Killion</li>
+              </ul>
+
+              <h2>Plus, each film comes with a bonus DVD with...</h2>
+              <ul>
+                <li>An hour of additional material</li>
+                <li>The Essential Alan Watts </li>
+                <li>The Animated Alan Watts, by the creator of South Park</li>
+              </ul>
+
+            </div>
+          </div>
+        </section>
+
+        <section className="buy-now">
+          <div className="container">
+            <div className="content">
+              <button type="button" className="btn btn-danger btn-large">
+                <a target="_blank" href="http://www.alanwattscenter.org/copy-of-about">
+                  Buy now
+                </a>
+              </button>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }
